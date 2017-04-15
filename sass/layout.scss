@@ -16,11 +16,11 @@ body {
     background-position: center;
     .header-background {
         @include flexbox();
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.3);
         width: 100%;
         height: 100%;
     }
-    
+
     .header-content {
         width: $wrapper-width;
         margin: auto;
@@ -41,15 +41,15 @@ body {
             text-decoration: none;
             color: $white;
         }
-        
+
         .post-data, .tag-data {
-            color: $grey;
+            color: $white;
             @include font-size(14);
             a {
-                color: #8d8d8d;
                 border: 0;
                 &:hover {
                     color: $white;
+                    cursor: pointer;
                 }
             }
             > span {
@@ -107,7 +107,7 @@ body {
                     }
                 }
             }
-        }   
+        }
     }
 }
 
@@ -135,7 +135,7 @@ body {
                 @include font-size(14);
                 letter-spacing: 0;
                 margin: 0;
-                
+
             }
             nav.links ul li a {
                 color: darken($white, 40%);
@@ -280,9 +280,9 @@ body {
                     .post-title {
                         @include transform(translateY(110%));
                     }
-                }               
+                }
             }
-            .post-title {            
+            .post-title {
                 margin: 0 $post-padding $post-padding $post-padding;
                 padding-top: $post-padding;
                 @include font-size(25);
@@ -316,7 +316,7 @@ body {
                     margin-right: $post-padding / 2;
                 }
             }
-            
+
         }
     }
     .pagination {
@@ -373,7 +373,7 @@ body {
                     color: rgb(216, 81, 81);
                 }
             }
-            
+
         }
     }
     a {
