@@ -1,6 +1,12 @@
 {
-  "name": "Saga",
-  "version": "1.2.3",
+  "name": "Ethan Saga",
+  "version": "1.2.3.1",
   "description": "Tell your story! A Ghost theme designed for photoblogging",
-  "author": "Gustav Lindqvist"
+  "author": "Gustav Lindqvist",
+  "devDependencies": {
+    "compass": "^0.1.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
 }
